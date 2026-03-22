@@ -7232,7 +7232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 58.42 30.988 0)
 			(effects
 				(font
@@ -8229,7 +8229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 27.94 23.368 0)
 			(effects
 				(font
@@ -9416,7 +9416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 27.94 30.988 0)
 			(effects
 				(font
@@ -9820,7 +9820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 58.42 23.368 0)
 			(effects
 				(font
@@ -10956,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 54.61 90.678 0)
 			(effects
 				(font
@@ -11923,7 +11923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 54.61 98.298 0)
 			(effects
 				(font
@@ -12361,7 +12361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 60.96 98.298 0)
 			(effects
 				(font
@@ -13922,7 +13922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 60.96 90.678 0)
 			(effects
 				(font
@@ -14885,7 +14885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 270.002 81.28 0)
 			(effects
 				(font
@@ -18480,7 +18480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 294.132 146.05 0)
 			(effects
 				(font
