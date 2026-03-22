@@ -3379,6 +3379,12 @@
 		(uuid "fd0817f0-97bd-4f7f-a3fa-f716fbe5b2d7")
 	)
 	(junction
+		(at 73.66 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014cd51d-4d39-4458-8ced-edb3892a4586")
+	)
+	(junction
 		(at 99.06 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5280,6 +5286,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 162.56) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731e98e4-e704-4f4d-9a77-b3b1ed28f287")
+	)
+	(wire
+		(pts
 			(xy 279.4 35.56) (xy 280.67 35.56)
 		)
 		(stroke
@@ -6137,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "b79bbfaa-134a-4cdb-9e94-ee2f4f0076c4")
+	)
+	(wire
+		(pts
+			(xy 66.04 207.01) (xy 64.77 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e86b79-f695-48e6-935b-0b8119a7daca")
 	)
 	(wire
 		(pts
@@ -7395,6 +7421,75 @@
 			(project "TP1ASSD"
 				(path "/9b2b9b98-71e9-486e-819e-aa7020ec1772"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TCLib:C")
+		(at 69.85 207.01 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05579d89-2ca4-4a1f-b705-2da9d8bd4da6")
+		(property "Reference" "C34"
+			(at 69.85 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 69.85 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TCLib:C_5mm"
+			(at 73.152 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.724 224.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29147154-0629-4ca8-9783-553ff3755f96")
+		)
+		(pin "2"
+			(uuid "85a5e93e-b190-42b8-a3a3-895b68777ff9")
+		)
+		(instances
+			(project "TP1ASSD"
+				(path "/9b2b9b98-71e9-486e-819e-aa7020ec1772"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9430,6 +9525,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 162.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd094a4-ddeb-40ee-8411-0514b0fe1864")
+		(property "Reference" "#PWR064"
+			(at 144.78 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cb19b1a-91b5-44d3-8fbc-3a1d79a6dcc9")
+		)
+		(instances
+			(project "TP1ASSD"
+				(path "/9b2b9b98-71e9-486e-819e-aa7020ec1772"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-10V")
 		(at 270.51 64.77 180)
 		(unit 1)
@@ -9799,7 +9961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 270.002 52.07 0)
 			(effects
 				(font
@@ -11351,7 +11513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 156.718 179.07 0)
 			(effects
 				(font
@@ -11691,7 +11853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 155.448 271.78 0)
 			(effects
 				(font
@@ -11919,7 +12081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_5mm"
+		(property "Footprint" "TCLib:C_0805"
 			(at 290.83 192.278 0)
 			(effects
 				(font
@@ -12268,7 +12430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_5mm"
+		(property "Footprint" "TCLib:C_0805"
 			(at 232.41 192.278 0)
 			(effects
 				(font
@@ -13058,6 +13220,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 64.77 207.01 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c9ed3c4-f2b6-4636-ac5a-a49895fdd39b")
+		(property "Reference" "#PWR063"
+			(at 64.77 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc957cd1-a275-467b-8d3b-18ac0a635094")
+		)
+		(instances
+			(project "TP1ASSD"
+				(path "/9b2b9b98-71e9-486e-819e-aa7020ec1772"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 99.06 248.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13485,7 +13714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 156.718 201.93 0)
 			(effects
 				(font
@@ -13622,7 +13851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 79.248 223.52 0)
 			(effects
 				(font
@@ -14023,6 +14252,75 @@
 		)
 	)
 	(symbol
+		(lib_id "TCLib:C")
+		(at 149.86 162.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e56b6f-7c76-41cc-9268-1e1b6e109c5a")
+		(property "Reference" "C35"
+			(at 149.86 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 149.86 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TCLib:C_0805"
+			(at 153.162 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.734 179.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bc3d13-e873-4a58-99a7-11f71dcc29fb")
+		)
+		(pin "2"
+			(uuid "961c6248-4e6d-4b04-8ce8-dd340937f598")
+		)
+		(instances
+			(project "TP1ASSD"
+				(path "/9b2b9b98-71e9-486e-819e-aa7020ec1772"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 30.48 0)
 		(unit 1)
@@ -14114,7 +14412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 154.178 247.65 0)
 			(effects
 				(font
@@ -14249,7 +14547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_5mm"
 			(at 69.088 243.84 0)
 			(effects
 				(font
@@ -15209,7 +15507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TCLib:C_0805"
+		(property "Footprint" "TCLib:C_2.5mm"
 			(at 294.132 118.11 0)
 			(effects
 				(font
@@ -16571,7 +16869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_5mm"
+		(property "Footprint" "TCLib:C_0805"
 			(at 279.4 192.278 0)
 			(effects
 				(font
@@ -17757,7 +18055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TCLib:C_5mm"
+		(property "Footprint" "TCLib:C_0805"
 			(at 245.11 192.278 0)
 			(effects
 				(font
