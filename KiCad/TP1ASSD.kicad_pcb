@@ -188,7 +188,7 @@
 		(descr "Resistencia estandar de 1/4W")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 90)
+			(at 12.3075 1.19 90)
 			(layer "F.SilkS")
 			(uuid "57ff07cd-6b7d-4c28-9e9b-d7fd4054edf1")
 			(effects
@@ -937,7 +937,7 @@
 		(descr "Capacitor multicapa estandar.")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "Ch1"
-			(at 2.5 -2.5 0)
+			(at -3.37 -0.615 0)
 			(layer "F.SilkS")
 			(uuid "0fca32ba-4b05-4e3c-811a-208598d50b29")
 			(effects
@@ -1160,7 +1160,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 0)
+			(at -3.87 3.925 0)
 			(layer "F.SilkS")
 			(uuid "ed4ca484-cd04-4656-aee1-99d6dd54ca8e")
 			(effects
@@ -1171,8 +1171,8 @@
 			)
 		)
 		(property "Value" "Jumper_SH"
-			(at 2.11 7.55 0)
-			(layer "F.Fab")
+			(at -6.87 2.425 0)
+			(layer "F.SilkS")
 			(uuid "dcae3fba-480c-4ecc-95ba-8f3dc7619f23")
 			(effects
 				(font
@@ -1744,7 +1744,7 @@
 		(descr "Resistencia estandar de 1/4W")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R6"
-			(at 5.08 -2.37 90)
+			(at 2.3 2.48 90)
 			(layer "F.SilkS")
 			(uuid "3d8e470f-48f8-4c6a-b2ea-06c212fed1ab")
 			(effects
@@ -2018,7 +2018,7 @@
 			)
 		)
 		(property "Value" "JumperCtrlSH"
-			(at -1.5 6.37 0)
+			(at -6.8 1.39 0)
 			(layer "F.Fab")
 			(uuid "a4b45722-4437-422b-ba9f-8e07b3eaf221")
 			(effects
@@ -2261,7 +2261,7 @@
 		(descr "Capacitor multicapa estandar.")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C20"
-			(at 2.5 -2.5 0)
+			(at -4.22 0.1104 0)
 			(layer "F.SilkS")
 			(uuid "5de89190-9598-4e40-bc77-32c7adde464e")
 			(effects
@@ -2747,7 +2747,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U9"
-			(at 3.81 -2.33 0)
+			(at 1.96 -2.14 0)
 			(layer "F.SilkS")
 			(uuid "2b991f06-38f9-4da2-9a16-2b506eef3fbd")
 			(effects
@@ -3646,7 +3646,7 @@
 		(descr "Capacitor multicapa estandar.")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C16"
-			(at 2.5 -2.5 0)
+			(at 2.51 -3.315 0)
 			(layer "F.SilkS")
 			(uuid "d83ac855-8948-4372-acf9-c80efdd5f23f")
 			(effects
@@ -3881,7 +3881,7 @@
 		)
 		(property "Value" "GND"
 			(at 0 7.41 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "21ea0c67-a951-46cb-874b-649bb619dbe3")
 			(effects
 				(font
@@ -4134,7 +4134,7 @@
 		(descr "Capacitor multicapa estandar.")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C24"
-			(at 2.5 -2.5 90)
+			(at 4.7 -2.415 90)
 			(layer "F.SilkS")
 			(uuid "f363dd00-f820-4ea8-8391-901eacc56379")
 			(effects
@@ -4854,7 +4854,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.5 2.5 0)
+			(at -1.13 -2.5 0)
 			(layer "F.Fab")
 			(uuid "b3652310-7a7e-4cb3-88df-24e9e548c543")
 			(effects
@@ -5847,7 +5847,7 @@
 		(descr "Capacitor multicapa estandar.")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C18"
-			(at 2.5 -2.5 0)
+			(at 6.161 2.59 0)
 			(layer "F.SilkS")
 			(uuid "d76a321d-4262-4c4d-bc0f-95e858060c2a")
 			(effects
@@ -6081,8 +6081,8 @@
 			)
 		)
 		(property "Value" "Vo"
-			(at 0 4.87 0)
-			(layer "F.Fab")
+			(at 0 5.495 0)
+			(layer "F.SilkS")
 			(uuid "37081ee9-80cc-4b94-896f-dfeb5a224fbb")
 			(effects
 				(font
@@ -6654,8 +6654,8 @@
 			)
 		)
 		(property "Value" "Jumper_AS"
-			(at 0 7.41 90)
-			(layer "F.Fab")
+			(at 2.985 2.925 0)
+			(layer "F.SilkS")
 			(uuid "be085b32-47e1-483f-afcb-154d26ac3941")
 			(effects
 				(font
@@ -6919,7 +6919,7 @@
 			)
 		)
 		(property "Value" "82k"
-			(at 5.08 2.37 90)
+			(at 8.84 -2.69 90)
 			(layer "F.Fab")
 			(uuid "9f404972-4a91-4cb7-9a07-300d1acea320")
 			(effects
@@ -7182,8 +7182,8 @@
 			)
 		)
 		(property "Value" "Jumper_FA"
-			(at 0.33 -3.86 0)
-			(layer "F.Fab")
+			(at 2.66 -3.86 0)
+			(layer "F.SilkS")
 			(uuid "7f654f91-d0ad-4f13-b7d7-8b92c9a912ce")
 			(effects
 				(font
@@ -7436,7 +7436,7 @@
 		(descr "Preset Multivuelta azul")
 		(tags "Potentiometer ")
 		(property "Reference" "RV1"
-			(at 3 -3.3 90)
+			(at 5.1 3.37 90)
 			(layer "F.SilkS")
 			(uuid "74b32a8f-77ff-4797-ba13-71144a0fbaf2")
 			(effects
@@ -7782,8 +7782,8 @@
 			)
 		)
 		(property "Value" "Jumper_AS"
-			(at 0 7.41 0)
-			(layer "F.Fab")
+			(at 3.2 7.22 0)
+			(layer "F.SilkS")
 			(uuid "168a8fae-d2e2-457c-b52b-aa949ef31b3a")
 			(effects
 				(font
@@ -8513,7 +8513,7 @@
 			)
 		)
 		(property "Value" "LM79xx"
-			(at 2.54 2.5 90)
+			(at 2.335 2.5 90)
 			(layer "F.Fab")
 			(uuid "a25c8634-2bcb-4b7e-80fd-497edf7a102c")
 			(effects
@@ -8798,7 +8798,7 @@
 		(descr "Preset Multivuelta azul")
 		(tags "Potentiometer ")
 		(property "Reference" "RV3"
-			(at 3 -3.3 0)
+			(at 3.005 -3.3 0)
 			(layer "F.SilkS")
 			(uuid "77bde326-ac40-4394-8cc8-ee260417c7c5")
 			(effects
@@ -9133,7 +9133,7 @@
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U7"
-			(at 3.81 -2.33 0)
+			(at 6.34 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "9605282d-8149-45aa-8f59-90767ff7ec29")
 			(effects
@@ -9646,7 +9646,7 @@
 		(descr "Capacitor multicapa estandar.")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 7.5mm width 2.5mm Capacitor")
 		(property "Reference" "C31"
-			(at 2.5 -2.5 0)
+			(at 5.5 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "70826bdf-f427-4ad9-9bb2-c2a9f4166f1b")
 			(effects
@@ -9881,7 +9881,7 @@
 		)
 		(property "Value" "Alimentacion"
 			(at 2.54 4.08 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "d43d20ac-114b-4a99-9542-b36f26e389e2")
 			(effects
 				(font
@@ -12364,7 +12364,7 @@
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U3"
-			(at 3.81 -2.33 0)
+			(at -0.16 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "76fe8f8b-d9f6-4328-b992-57ef00cd52d6")
 			(effects
@@ -12695,7 +12695,7 @@
 		)
 		(property "Value" "Vi"
 			(at 1.27 4.08 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "1582e353-b514-408a-a6c1-fb78c4f2c723")
 			(effects
 				(font
@@ -13311,8 +13311,8 @@
 			)
 		)
 		(property "Value" "JumperCtrlAS"
-			(at 0 4.87 0)
-			(layer "F.Fab")
+			(at 3.155 -2.76 0)
+			(layer "F.SilkS")
 			(uuid "fa08dd4a-658d-44c9-99b9-11e6edd40f5c")
 			(effects
 				(font
@@ -13900,8 +13900,8 @@
 			)
 		)
 		(property "Value" "GND(Vo)"
-			(at 0 4.87 0)
-			(layer "F.Fab")
+			(at 0 5.115 0)
+			(layer "F.SilkS")
 			(uuid "ffa2c3c1-d8c1-4382-a345-fea1e9b7fe67")
 			(effects
 				(font
@@ -23514,12 +23514,12 @@
 		(uuid "bd4a20d0-d8ed-413a-b2ba-3053401be3f3")
 	)
 	(segment
-		(start 106.45 130)
-		(end 108.45 128)
+		(start 120.85 104.35)
+		(end 122.5 104.35)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "01470d55-2f98-4025-b919-8ffa6473a580")
+		(uuid "013ee767-e337-4049-96ed-aaed161ec378")
 	)
 	(segment
 		(start 83.99 130.8)
@@ -23530,20 +23530,28 @@
 		(uuid "018ff685-e7be-426b-aba6-3df1fac6b5b3")
 	)
 	(segment
-		(start 119.9 129.8)
-		(end 119.9 145.6)
+		(start 121.18 146.88)
+		(end 123.2624 146.88)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "1528fb01-8576-4fca-869c-45fddc625d38")
+		(uuid "13a810fc-83d7-4428-aa29-1c81ca8ddb67")
 	)
 	(segment
-		(start 118.869 106.331)
-		(end 120.85 104.35)
+		(start 118.869 128.769)
+		(end 118.869 106.331)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "1a9eed68-1643-4c1a-8e96-249454f4437a")
+		(uuid "16490531-8cce-4f9a-abf9-952ef5812eac")
+	)
+	(segment
+		(start 119.9 145.6)
+		(end 121.18 146.88)
+		(width 1)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "2055c056-5684-41fb-a245-37f3ab3463ab")
 	)
 	(segment
 		(start 122.5 104.35)
@@ -23602,12 +23610,20 @@
 		(uuid "454c6f57-ee43-46b5-b384-15dd142db04d")
 	)
 	(segment
-		(start 119.2 129.1)
-		(end 118.869 128.769)
+		(start 104.4 130)
+		(end 106.45 130)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "515fb642-b8e3-4765-b473-bd7580815738")
+		(uuid "45dd1897-4074-4153-a6e5-c73e657f2e17")
+	)
+	(segment
+		(start 118.3 128.2)
+		(end 119.9 129.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "4b27b542-43ba-4bdc-8553-865561d0fa84")
 	)
 	(segment
 		(start 98 121.7)
@@ -23624,14 +23640,6 @@
 		(layer "F.Cu")
 		(net 19)
 		(uuid "55ab6ada-0a44-4e05-bbfe-20e1ddab8526")
-	)
-	(segment
-		(start 118.869 128.769)
-		(end 118.869 106.331)
-		(width 1)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "57bf1645-6724-4e90-ad52-c57424868687")
 	)
 	(segment
 		(start 73.87 130.07)
@@ -23656,14 +23664,6 @@
 		(layer "F.Cu")
 		(net 19)
 		(uuid "629b4f80-6273-438f-9d50-2075a2f9744a")
-	)
-	(segment
-		(start 121.18 146.88)
-		(end 123.2624 146.88)
-		(width 1)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "67444b26-491a-47ad-92f6-668e2a3b2e59")
 	)
 	(segment
 		(start 86.75 132.2)
@@ -23698,20 +23698,28 @@
 		(uuid "73bc16f6-d17f-448f-8716-f8632c70a8b3")
 	)
 	(segment
-		(start 119.9 145.6)
-		(end 121.18 146.88)
-		(width 1)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "73e158c3-f2f8-403a-ac12-fe7399971bf9")
-	)
-	(segment
 		(start 123.2624 146.88)
 		(end 126.54 146.88)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
 		(uuid "747e8410-e6bb-42b6-9284-cc72fc676397")
+	)
+	(segment
+		(start 106.45 130)
+		(end 108.45 128)
+		(width 1)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "7c29a228-423f-4eec-a121-057a786a7eec")
+	)
+	(segment
+		(start 108.45 128)
+		(end 118.1 128)
+		(width 1)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "7eccd19d-6f72-4a2a-9c57-98e085ea1dde")
 	)
 	(segment
 		(start 123.2624 149.3614)
@@ -23730,20 +23738,28 @@
 		(uuid "839d656f-4b0b-446c-9455-c72e1daee46f")
 	)
 	(segment
+		(start 118.869 106.331)
+		(end 120.85 104.35)
+		(width 1)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "997130db-6603-4f63-a496-f9fe465611fd")
+	)
+	(segment
+		(start 119.2 129.1)
+		(end 118.869 128.769)
+		(width 1)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "9ee62fad-f331-4e03-8f4a-a54d7be2be3e")
+	)
+	(segment
 		(start 83.99 134.18)
 		(end 83.99 130.8)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
 		(uuid "a135200f-edcf-4d56-8e36-c7832894e018")
-	)
-	(segment
-		(start 118.1 128)
-		(end 119.2 129.1)
-		(width 1)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "a589d295-95a3-4359-857e-6ddb773798a5")
 	)
 	(segment
 		(start 180.265 111.2)
@@ -23802,12 +23818,12 @@
 		(uuid "bb727abc-3944-4295-8bfb-c4e34f5f771e")
 	)
 	(segment
-		(start 104.4 130)
-		(end 106.45 130)
+		(start 118.1 128)
+		(end 119.2 129.1)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "be53fae3-d2c5-4b6e-905b-325879d58e03")
+		(uuid "bc1e24c6-3707-43bf-85ed-51825da0704b")
 	)
 	(segment
 		(start 104.4 128.1)
@@ -23826,12 +23842,12 @@
 		(uuid "c9300fa6-74ff-44b3-b2a0-564223375ba1")
 	)
 	(segment
-		(start 120.85 104.35)
-		(end 122.5 104.35)
+		(start 119.9 129.8)
+		(end 119.9 145.6)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
-		(uuid "d0cb2cb8-cba5-45e4-9c36-5dab6e68cb28")
+		(uuid "d1e0a1fe-a107-4a0f-9370-1be53bdb22cc")
 	)
 	(segment
 		(start 183.501 150.299)
@@ -23858,28 +23874,12 @@
 		(uuid "ea1aee88-7a61-47ff-9e43-4ce06838f2df")
 	)
 	(segment
-		(start 108.45 128)
-		(end 118.1 128)
-		(width 1)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "f7bea4f3-ae5e-475f-8147-8d366913667f")
-	)
-	(segment
 		(start 184.912 145.71)
 		(end 184.912 138.43)
 		(width 1)
 		(layer "F.Cu")
 		(net 19)
 		(uuid "f8dd7d41-c6d6-4c24-9d26-8dacfef6f53d")
-	)
-	(segment
-		(start 119.2 129.1)
-		(end 119.9 129.8)
-		(width 1)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "f8f7fd1d-8a32-4c44-ab8b-6107c0d1de6e")
 	)
 	(via
 		(at 184.912 145.71)
